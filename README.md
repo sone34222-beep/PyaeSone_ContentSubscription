@@ -32,7 +32,7 @@ step2. print output of created account by calling account.get methods
 
 5.2. get all subscriptions
 step1. print a title "Total subscription: "
-step2. call "subscriptionsController" objected exported at the start of the file, call subscriptionsController.get method to get number of objects inside  subscriptions array
+step2. call "subscriptionsController" objected exported at the start of the file, call getallsub method and getNumOfSub get method to get number of objects inside  subscriptions array
 
 step3. use for loop to print out each object
 step4. inside console.log, print string "Subscription" followed by index+1 to display number in front of each object and call object subscriptionsController.get method to return each suscription based on index value (index is input variable)
